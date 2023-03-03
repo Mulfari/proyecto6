@@ -19,7 +19,7 @@ const cartSlice = createSlice({
   },
 })
 
-const {setProductsCartGlobal, setChangeErrorStatus} = cartSlice.actions
+export const {setProductsCartGlobal, setChangeErrorStatus} = cartSlice.actions
 
 export const getAllCartProducts = () => (dispatch) => {
   axiosEcommerce
